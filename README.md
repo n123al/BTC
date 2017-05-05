@@ -1,3 +1,5 @@
+#Be The Controller
+
 ## Synopsis
 
 The primary goal of the Be the Controller tool kit is to help game designers easily identify and recognise a user’s pose and gestures using a motion controller, in order to then link these movements with actions in a game. This software library provides the developer with the infrastructure to load lists of poses and gestures to an application, which are then recognised and linked to the appropriate action in the application.
