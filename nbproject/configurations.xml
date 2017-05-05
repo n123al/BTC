@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="f5" displayName="Elements" projectFiles="true">
+        <itemPath>Events.h</itemPath>
+        <itemPath>Person.h</itemPath>
+        <itemPath>skeleton.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="Helpers" projectFiles="true">
+        <itemPath>BTCHelper.h</itemPath>
+        <itemPath>Encrypt.h</itemPath>
+        <itemPath>GeneralHelper.h</itemPath>
+        <itemPath>MyHelper.h</itemPath>
+        <itemPath>vmath.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="Lists" projectFiles="true">
+        <itemPath>GesturesList.h</itemPath>
+        <itemPath>PosesList.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="RecognitionElements" projectFiles="true">
+        <itemPath>Gesture.h</itemPath>
+        <itemPath>Pose.h</itemPath>
+        <itemPath>RecognitionElement.h</itemPath>
+        <itemPath>Timer.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f4" displayName="XML" projectFiles="true">
+        <itemPath>GestureXML.h</itemPath>
+        <itemPath>PoseXML.h</itemPath>
+        <itemPath>pugiconfig.hpp</itemPath>
+        <itemPath>pugixml.hpp</itemPath>
+      </logicalFolder>
+      <itemPath>PoseManager.h</itemPath>
+      <itemPath>PosesSuggester.h</itemPath>
+      <itemPath>RunTime.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f5" displayName="Elements" projectFiles="true">
+        <itemPath>Person.cpp</itemPath>
+        <itemPath>skeleton.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="Helpers" projectFiles="true">
+        <itemPath>BTCHelper.cpp</itemPath>
+        <itemPath>Encrypt.cpp</itemPath>
+        <itemPath>MyHelper.cpp</itemPath>
+        <itemPath>vmath.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="Lists" projectFiles="true">
+        <itemPath>GesturesList.cpp</itemPath>
+        <itemPath>PosesList.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="RecognitionElements" projectFiles="true">
+        <itemPath>Gesture.cpp</itemPath>
+        <itemPath>Pose.cpp</itemPath>
+        <itemPath>RecognitionElement.cpp</itemPath>
+        <itemPath>Timer.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f4" displayName="XML" projectFiles="true">
+        <itemPath>GestureXML.cpp</itemPath>
+        <itemPath>PoseXML.cpp</itemPath>
+        <itemPath>pugixml.cpp</itemPath>
+      </logicalFolder>
+      <itemPath>BTC.cpp</itemPath>
+      <itemPath>PoseManager.cpp</itemPath>
+      <itemPath>PosesSuggester.cpp</itemPath>
+      <itemPath>RunTime.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="2">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <commandLine>-static-libgcc -static-libstdc++</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="BTC.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BTCHelper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BTCHelper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Encrypt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Encrypt.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Events.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GeneralHelper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Gesture.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Gesture.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GestureXML.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GestureXML.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GesturesList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GesturesList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MyHelper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MyHelper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Person.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Person.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Pose.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Pose.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PoseManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PoseManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PoseXML.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PoseXML.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PosesList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PosesList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PosesSuggester.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PosesSuggester.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RecognitionElement.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RecognitionElement.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RunTime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RunTime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Timer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Timer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="pugiconfig.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="pugixml.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="pugixml.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="skeleton.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="skeleton.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="vmath.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vmath.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="2">
+      <toolsSet>
+        <compilerSet>MinGW|MinGW</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <architecture>1</architecture>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <commandLine>-static-libgcc -static-libstdc++</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="BTC.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BTCHelper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BTCHelper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Encrypt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Encrypt.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Events.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GeneralHelper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Gesture.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Gesture.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GestureXML.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GestureXML.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GesturesList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GesturesList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MyHelper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MyHelper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Person.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Person.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Pose.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Pose.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PoseManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PoseManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PoseXML.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PoseXML.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PosesList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PosesList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PosesSuggester.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PosesSuggester.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RecognitionElement.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RecognitionElement.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RunTime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RunTime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Timer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Timer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="pugiconfig.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="pugixml.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="pugixml.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="skeleton.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="skeleton.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="vmath.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vmath.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
